@@ -641,11 +641,13 @@ content:'';
 }
 
 .menu-item-has-children > a:after{
-	font: normal 16px/1 'dashicons';
+	/*font: normal 16px/1 'dashicons';*/
+	font: normal 16px/1 'fontawesome';
 	font-size:16px;
 	height:16px;
 	width:16px;
-	content: "\f140";
+	/*content: "\f140";*/
+	content: "\f0d7";
 	-webkit-font-smoothing: antialiased;
 }
 
