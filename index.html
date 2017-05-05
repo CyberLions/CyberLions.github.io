@@ -1,97 +1,68 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
 
-<title>Penn State Competitive Cyber Security Organization</title>
+  <title>Penn State Competitive Cyber Security Organization</title>
 
-<link rel='dns-prefetch' href='//fonts.googleapis.com' />
-<link rel='dns-prefetch' href='//s.w.org' />
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-<!-- bootstrap -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- icons -->
-<link rel="stylesheet" id='fontawesome-css'  href="css/font-awesome.min.css" type='text/css' media='all' />
+  <!-- icons -->
+  <link rel="stylesheet" id='fontawesome-css'  href="css/font-awesome.min.css" type='text/css' media='all' />
+  <link rel="shortcut icon" href="images/favicon.png" />
 
-<link rel="shortcut icon" href="images/favicon.png" />
-
-<style type="text/css">
-  .main-navigation{/*top:32px;*/}
-
-  @media screen and ( max-width: 782px ) {
-    .main-navigation{top:46px;}
-  }
-
-  @media screen and ( max-width: 600px ) {
-    .main-navigation{top:0px;}
-  }
-
-  .site-title{color:#ffffff;}
-  .site-header {
-    background: url(images/IST-background.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size:    cover;
-    -o-background-size:      cover;
-    background-size:         cover;
-  }
-</style>
-
-<style type="text/css">
-  #wp-admin-bar-msreader-follow {width: 100px;}
-  #wp-admin-bar-msreader-follow .hover-text {display:none;}
-  #wp-admin-bar-msreader-follow:hover .hover-text {display:inline;}
-  #wp-admin-bar-msreader-follow:hover .current-text {display:none;}
-  #wp-admin-bar-msreader-follow .ab-item .ab-icon:before {content: "\f487"; top: 2px;}
-  #wp-admin-bar-msreader-follow.following .ab-item .ab-icon:before {color: #d54e21;}
-  #wp-admin-bar-msreader-follow.following:hover .ab-item .ab-icon:before {color: #999;}
-  #wp-admin-bar-msreader-follow.following:hover .ab-item {color: #999 !important;}</style>
-<style type="text/css">
-/* <![CDATA[ */
-img.latex { vertical-align: middle; border: none; }
-/* ]]> */
-</style>
-
-<link rel="icon" href="icons/cyberlions-150x150.png" sizes="32x32" />
-<link rel="icon" href="icons/cyberlions-200x200.png" sizes="192x192" />
-<link rel="apple-touch-icon-precomposed" href="icons/cyberlions-200x200.png" />
-<meta name="msapplication-TileImage" content="icons/transparent-20hsbpe-200x200.png" />
-
+  <!-- background image -->
+  <style type="text/css">
+    .site-title{
+      color:#ffffff;
+    }
+    .site-header {
+      background: url(images/IST-background.jpg) no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size:    cover;
+      -o-background-size:      cover;
+      background-size:         cover;
+    }
+    body {
+      font-family: Montserrat, sans-serif;
+    }
+    .navbar-default {
+      background-color: rgb(255, 255, 255);
+    }
+    .navbar {
+      text-transform: uppercase;
+      font-size: 14px;
+      letter-spacing: 2px;
+    }
+  </style>
 </head>
 
-<!--
-<body class="home page-template-default page page-id-11 page-parent admin-bar no-customize-support no-sidebar">
--->
-<body class="home page-template-default page page-id-11 page-parent no-customize-support no-sidebar">
-<div id="page" class="hfeed site">
-<a class="skip-link screen-reader-text" href="#highlight">Skip to content</a>
-<nav id="site-navigation" class="main-navigation" role="navigation">
-<button class="menu-toggle" aria-controls="menu" aria-expanded="false"><span class="screen-reader-text">Main Menu</span></button>
-<div class="menu-main-menu-container">
-  <ul id="menu-main-menu" class="menu">
-  <li class="toptitle"><a href="https://cyberlions.github.io" rel="home">Penn State Competitive Cyber Security Organization</a></li>
-  <li id="menu-item-133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-11 current_page_item menu-item-has-children menu-item-133">
-    <a href="https://cyberlions.github.io">Resources</a>
-  <ul class="sub-menu">
-  <li id="menu-item-411" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-411">
-    <a href="resources/helpful-links.html">Helpful Links</a></li>
-  <li id="menu-item-135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135">
-    <a href="resources/scripts.html">Scripts</a></li>
-  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135">
-    <a href="resources/getting-started.html">Getting Started</a></li>
-  </ul></li>
-
-  <li id="menu-item-131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131"><a href="helpful-links.html">Helpful Links</a></li>
-  <li id="menu-item-470" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-470"><a href="upcoming-competitions.html">Upcoming Competitions</a></li>
-
-  <!-- 'upcoming events' unnecessary until club gets a more set-in-stone schedule of talks planned each semester
-  <li id="menu-item-132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132"><a href="events.html">Upcoming Events</a></li>
-  -->
-
-  </ul>
-</div>
-</nav><!-- #site-navigation -->
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">PSU - Competitive Cyber Security Organization</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://github.com/CyberLions" target="_blank"><i class="fa fa-github"></i> Github</a></li>
+          <li><a href="https://psu-ccso.slack.com" target="_blank"><i class="fa fa-slack"></i> Slack</a></li>
+          <li><a href="/events" target="_blank"><i class="fa fa-calendar"></i> Events</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
 
 <header id="masthead" class="site-header" role="banner">
 <div class="site-branding">
