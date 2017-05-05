@@ -20,6 +20,10 @@
   <style type="text/css">
     .site-title{
       color:#ffffff;
+      font-size: 70px;
+      position: relative;
+      background-color: rgba(0, 0, 0, 0.55);
+      padding: 20px;
     }
     .site-header {
       background: url(images/IST-background.jpg) no-repeat center center;
@@ -27,6 +31,8 @@
       -moz-background-size:    cover;
       -o-background-size:      cover;
       background-size:         cover;
+      text-align: center;
+      position: absolute;
     }
     body {
       font-family: Montserrat, sans-serif;
@@ -38,6 +44,24 @@
       text-transform: uppercase;
       font-size: 14px;
       letter-spacing: 2px;
+    }
+    .navbar-brand {
+      font-size: 14px;
+    }
+    .site-branding {
+      position: relative;
+      margin-top: 90px;
+    }
+    .site-header .panel {
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 25px 0px;
+      background-color: rgba(255, 255, 255, 0.85);
+    }
+    .site-header a {
+      color: rgb(102, 102, 102);
+    }
+    .site-header a:active, .site-header a:hover, .site-header a:visited, .site-header a:focus {
+      color: rgb(47, 47, 47);
+      text-decoration: none;
     }
   </style>
 </head>
@@ -54,103 +78,55 @@
         </button>
         <a class="navbar-brand" href="/">PSU - Competitive Cyber Security Organization</a>
       </div>
+
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
+
+          <!-- navbar links -->
           <li><a href="https://github.com/CyberLions" target="_blank"><i class="fa fa-github"></i> Github</a></li>
           <li><a href="https://psu-ccso.slack.com" target="_blank"><i class="fa fa-slack"></i> Slack</a></li>
           <li><a href="/events" target="_blank"><i class="fa fa-calendar"></i> Events</a></li>
+
         </ul>
       </div><!--/.nav-collapse -->
     </div>
   </nav>
 
-<header id="masthead" class="site-header" role="banner">
-<div class="site-branding">
-  <h1 class="site-title">Penn State Competitive Cyber Security Organization</h1>
 
-  <div class="highlights1" id="highlight"><i class="fa fa-github fa-4x"></i>
-    <a href="https://github.com/cyberLions/"><h2>Check out our GitHub</h2><p>Read helpful resources, tutorials, and CTF write-ups to get started!</p></a></div>
-  <div class="highlights2"><i class="fa fa-slack fa-4x"></i>
-    <a href="https://psu-ccso.slack.com/signup"><h2>Join our Slack Channel</h2><p>Slack is the primary platform we utilize for club communication.  Join and introduce yourself!</p></a></div>
-  <div class="highlights3"><i class="fa fa-calendar fa-4x"></i>
-    <a href="events/"><h2>Calendar of Events</h2><p>See a list of upcoming club events, including guest speakers and labs.</p></a></div>
-</div><!-- .site-branding -->
-</header><!-- #masthead -->
+  <header class="site-header" role="banner">
+    <div class="site-branding">
+      <h1 class="site-title">Competitive Cyber Security Organization</h1>
+      <div class="container">
+        <div class="row" style="margin-top: 50px;">
 
-<div id="content" class="site-content">
-<div id="primary" class="content-area">
-<main id="main" class="site-main" role="main">
+          <div class="col-md-4">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <i class="fa fa-github fa-5x"></i><a href="https://github.com/cyberLions/" target="_blank"><h2>Check out our GitHub</h2><p>Read helpful resources, tutorials, and CTF write-ups to get started!</p></a>
+              </div>
+            </div>
+          </div>
 
-<article id="post-11" class="post-11 page type-page status-publish hentry">
-  <div class="entry-content">
-    <header class="entry-header">
-      <h2 class="entry-title">About Us</a></h2>
-    </header><!-- .entry-header -->
-    <img src="https://cyberlions.github.io/images/officers.png" />
-    <p>The Competitive Cyber Security Organization at the Pennsylvania State University aims to educate
-    <span class="text_exposed_show">
-      those involved on current cyber security methods and practices and facilitate an informative environment where students from all educational levels and backgrounds can master safe computing practices. The club hosts trips to cyber security conferences and competitions locally and nationally where members can practice what they have learned. Members are not required to attend these competitions, but they are encouraged to continue learning.
-    </span>
-    </p>
+          <div class="col-md-4">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <i class="fa fa-slack fa-5x"></i><a href="https://psu-ccso.slack.com/signup" target="_blank"><h2>Join our Slack Channel</h2><p>Slack is the primary platform we utilize for club communication.  Join and introduce yourself!</p></a>
+              </div>
+            </div>
+          </div>
 
-    <header class="entry-header">
-      <h2 class="entry-title">Executive Board</a></h2>
-    </header><!-- .entry-header -->
-    <p><strong>President</strong>: Kevin Houk<br />
-    kmh6033@psu.edu</p>
-    <p><strong>Secretary</strong>: Ryan Diers<br />
-    rvd5284@psu.edu</p>
-    <p><strong>Treasurer</strong>: Jackson Houser<br />
-    jsh5452@psu.edu</p>
-    <h2></h2>
+          <div class="col-md-4">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <i class="fa fa-calendar fa-5x"></i><a href="events/"><h2>Calendar of Events</h2><p>See a list of upcoming club events, including guest speakers and labs.</p></a>
+              </div>
+            </div>
+          </div>
 
-    <header class="entry-header">
-      <h3 class="entry-title">Advisors</a></h3>
-    </header><!-- .entry-header -->
-    <p><strong>Advisor</strong>: Nick Giacobe<br />
-    nxg13@ist.psu.edu</p>
-    <p><strong>Co-Advisor</strong>: Michael Hills<br />
-    mkh179@psu.edu</p>
-  </div><!-- .entry-content -->
+        </div><!--/.row -->
+      </div><!--/.container -->
+    </div><!--/.site-branding -->
+  </header>
 
-<footer class="entry-footer"></footer><!-- .entry-footer -->
-</article><!-- #post-## -->
-
-</main><!-- #main -->
-</div><!-- #primary -->
-</div><!-- #content -->
-</div><!-- #page -->
-
-<style type="text/css">/*Missing admin bar button fix on mobile*/
-#wp-admin-bar-abm-login {
-  display: block !important;
-}
-
-/*Addthis aligment fix for iframe*/
-.addthis_toolbox iframe {
-  margin: 0 !important;
-}
-
-/*fix for html5 video wp shortcode being broken by theme */
-body video.wp-video-shortcode, body .wp-video-shortcode video {
-  margin: 0;
-  padding: 0;
-  background: transparent;
-  border: none;
-  box-shadow: none;
-  min-width: 0;
-  height:auto;
-  min-height: 0;
-}
-
-/* compatiblity with WP default screen reader class */
-.screen-reader-text:not(button) {
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-}
-</style>
 </body>
 </html>
