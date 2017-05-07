@@ -21,74 +21,8 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand hidden-xs hidden-sm" href="/">PSU - Competitive Cyber Security Organization</a>
-        <a class="navbar-brand hidden-md hidden-lg" href="/">PSU - CCSO</a>
-      </div>
-
-      <div id="navbar" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <!-- resources dropdown -->
-          <!--li class="dropdown">
-            <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Helpful Links</a></li>
-            </ul>
-          </li-->
-
-          <!-- navbar links -->
-          <li><a href="https://github.com/CyberLions" target="_blank"><i class="fa fa-github"></i> Github</a></li>
-          <li><a href="https://psu-ccso.slack.com" target="_blank"><i class="fa fa-slack"></i> Slack</a></li>
-          <li><a href="/events" target="_blank"><i class="fa fa-calendar"></i> Events</a></li>
-
-        </ul>
-      </div><!--/.nav-collapse -->
-    </div>
-  </nav>
-
-
-  <header class="site-header" role="banner">
-    <div class="site-branding">
-      <h1 class="site-title hidden-xs">Competitive Cyber Security Organization</h1>
-      <div class="container">
-        <div class="row" style="margin-top: 50px;">
-
-          <div class="col-md-4">
-            <div class="panel panel-default">
-              <div class="panel-body">
-                <i class="fa fa-github fa-5x"></i><a href="https://github.com/cyberLions/" target="_blank"><h2>Check out our GitHub</h2><p>Read helpful resources, tutorials, and CTF write-ups to get started!</p></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="panel panel-default">
-              <div class="panel-body">
-                <i class="fa fa-slack fa-5x"></i><a href="https://psu-ccso.slack.com/signup" target="_blank"><h2>Join our Slack Channel</h2><p>Slack is the primary platform we utilize for club communication.  Join and introduce yourself!</p></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="panel panel-default">
-              <div class="panel-body">
-                <i class="fa fa-calendar fa-5x"></i><a href="/events"><h2>Calendar of Events</h2><p>See a list of upcoming club events, including guest speakers and labs.</p></a>
-              </div>
-            </div>
-          </div>
-
-        </div><!--/.row -->
-      </div><!--/.container -->
-    </div><!--/.site-branding -->
-  </header>
+  <div data-include="navbar"></div>
+  <div data-include="header-main"></div>
 
   <div class="container content" style="margin-top: 60px;">
     <div class="row">
@@ -123,5 +57,8 @@
   <!-- bootstrap javascript -->
   <script src="/js/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  
+  <!-- code to include navbar -->
+  <script src="/js/include.js"></script>
 </body>
 </html>
