@@ -1,0 +1,62 @@
+.site-title{
+  color:#ffffff;
+  font-size: 70px;
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 20px;
+  position: relative;
+  margin-top: 100px;
+}
+
+.site-header {
+  background: url(../images/IST-background.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size:    cover;
+  -o-background-size:      cover;
+  background-size:         cover;
+  text-align: center;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-default {
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.navbar-brand {
+  font-size: 14px;
+}
+
+.site-branding {
+  padding-top: 90px;
+}
+
+.site-header .panel {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 25px 0px;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.site-header a {
+  color: rgb(102, 102, 102);
+}
+
+.site-header a:active, .site-header a:hover, .site-header a:visited, .site-header a:focus {
+  color: rgb(47, 47, 47);
+  text-decoration: none;
+}
+
+.content {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.content p {
+  margin-bottom: 16px;
+}
