@@ -60,3 +60,8 @@ body {
 .content p {
   margin-bottom: 16px;
 }
+
+.competition-tags {
+  line-height: 1.7;
+  margin-top: 0px;
+}
